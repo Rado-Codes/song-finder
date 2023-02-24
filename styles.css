@@ -20,12 +20,20 @@ header>hr {
 
 input[type="text"] {
     border: 1px solid gray;
+    padding: 5px;
+    width: 30vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+button {
+    padding: 5px;
 }
 
 #songs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     /* align-items: center; */
     grid-gap: 20px;
     padding: 0 10%;
